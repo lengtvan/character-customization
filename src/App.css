@@ -1,0 +1,230 @@
+.App {
+  text-align: center;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  user-select: none;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+.title{
+  position: relative;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.randomize-button
+{ margin-top: 40vh;
+  margin-left: 4vw;
+  min-width:7vw;
+  min-height:3vh;
+  width:10vw;
+  height:5vh;
+  border:chocolate 3px solid;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index:7;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 1mm;
+  font-size: medium;
+  position:absolute;
+}
+.list-section >h2{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: larger;
+}
+.container{
+  display: flex;
+  gap:20px;
+  justify-content: left;
+}
+.avatar-group{
+  margin-top: 5vh;
+  margin-left: 5px;
+  margin-right: 5px;
+  position:fixed;
+  display:flex;
+  flex-direction: column;
+  gap:10px;
+}
+
+.avatar-wrapper{
+  position:relative; 
+  display:flex;
+  flex-direction: column;
+  
+}
+.avatar-image{
+  position:relative;
+  max-height: 18vh;
+  max-width:18vw;
+}
+
+.avatar-image img{
+  width:18vw;
+  top:0;
+  left:0;
+}
+.avatar-image >.body{
+  position:absolute;
+  z-index: 0;
+}
+.avatar-image >.hat{
+  position:absolute;
+  z-index:6;
+}
+.avatar-image >.eyebrows{
+  position:absolute;
+  z-index: 6;
+}
+.avatar-image >.eyes{
+  position:absolute;
+  z-index:4;
+}
+.avatar-image >.hair{
+  position:absolute;
+  z-index: 6;
+}
+.avatar-image >.clothes_layer1{
+  position: absolute;
+  z-index: 2;
+}
+.avatar-image >.clothes_layer2{
+  position: absolute;
+  z-index:3;
+}
+.avatar-image >.clothes_layer3{
+  position:absolute;
+  z-index:4;
+}
+.avatar-image >.accessories{
+  position: absolute;
+  z-index:6;
+}
+.avatar-image >.hat{
+  position: absolute;
+  z-index:6;
+}
+.avatar-image >.mouth{
+  position: absolute;
+  z-index: 6;
+}
+.avatar-image >.nose{
+  position:absolute;
+  z-index:6;
+}
+.list-body{
+  display:flex;
+  flex-wrap: wrap;
+  gap:5px;
+}
+.clickable-square{
+  background-color:#649173;
+  border:chocolate 3px solid;
+  border-radius: 5px;
+  max-width: 15vw;
+}
+.clickable-square .body {
+  position:relative;
+  width:15vw;
+}
+.clickable-square .eyes {
+  position:relative;
+  width: 15vw;
+}
+.clickable-square .hair {
+  position:relative;
+  width: 15vw;
+}
+.clickable-square .clothes_layer1{
+  position: relative;
+  width:15vw;
+}
+.clickable-square .clothes_layer2{
+  position: relative;
+  width:15vw;
+}
+.clickable-square .clothes_layer3{
+  position: relative;
+  max-width: 15vw;
+}
+.clickable-square .eyebrows{
+  position: relative;
+  width:15vw;
+}
+.clickable-square .mouth{
+  position: relative;
+  width: 15vw;
+}
+.clickable-square .hat{
+  position: relative;
+  width: 15vw;
+}
+.list-eyes{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+
+}
+.list-hair{
+  display:flex;
+  flex-wrap: wrap;
+  gap:5px;
+
+
+}
+.list-clothes{
+  display: flex;
+  flex-wrap:wrap;
+  gap:5px;
+
+}
+.list-clothes-2{
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+
+}
+.list-clothes-3{
+  display:flex;
+  flex-wrap: wrap;
+  gap:5px;
+
+}
+.list-eyebrows{
+  display: flex;
+  flex-wrap: wrap;
+  gap:5px;
+
+}
+.list-mouth{
+  display:flex;
+  flex-wrap: wrap;
+  gap:5px;
+
+}
+.list-mouths{
+  display:flex;
+  flex-wrap: wrap;
+  gap:5px;
+
+}
+.list-hats{
+  display:flex;
+  flex-wrap: wrap;
+  gap:5px;
+
+}
+.list{
+  display:flex;
+  flex-direction: column;
+  margin-left: 20vw;
+}
+.list-section{
+  border:#649173 1px;
+  border-radius: 5px;
+}
